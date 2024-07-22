@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Directory Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>College Directory Login</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option value="STUDENT">Student</option>
+            <option value="FACULTY_MEMBER">Faculty Member</option>
+            <option value="ADMINISTRATOR">Administrator</option>
+        </select><br><br>
+        <input type="submit" value="Login">
+    </form>
+    <div id="error-message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
